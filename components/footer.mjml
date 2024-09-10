@@ -1,0 +1,249 @@
+<!-- Footer Header Section -->
+<mj-section>
+    <mj-column>
+        <mj-text color="#333" font-size="24px" font-weight="500" align="center">
+            We’re here to help.
+        </mj-text>
+    </mj-column>
+</mj-section>
+<!-- Footer Contact Section -->
+<mj-section>
+    <mj-column>
+        <mj-image
+            width="32px"
+            alt="whatsapp icon"
+            src="./assets/whatsapp.png"
+            padding-top="2px"
+        />
+        <mj-text color="#333" font-size="16px" align="center" padding-top="2px">
+            WhatsApp
+        </mj-text>
+        <mj-text
+            color="#757575"
+            font-size="14px"
+            align="center"
+            padding-top="2px"
+        >
+            <a
+                style="text-decoration: none; color: #757575"
+                target="_blank"
+                href="https://api.whatsapp.com/send/?phone=31655110516&text&type=phone_number&app_absent=0"
+            >
+                +31 6 55 11 05 16
+            </a>
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-section>
+    <mj-column>
+        <mj-image
+            width="32px"
+            alt="email icon"
+            src="./assets/email.png"
+            padding-top="2px"
+        />
+        <mj-text color="#333" font-size="16px" align="center" padding-top="2px">
+            E-mail
+        </mj-text>
+        <mj-text
+            color="#757575"
+            font-size="14px"
+            align="center"
+            padding-top="2px"
+        >
+            <a
+                style="text-decoration: none; color: #757575"
+                href="mailto:service@suitsupply.com"
+            >
+                service@suitsupply.com
+            </a>
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-section>
+    <mj-column>
+        <mj-image
+            width="32px"
+            alt="messenger icon"
+            src="./assets/messenger.png"
+            padding-top="2px"
+        />
+        <mj-text color="#333" font-size="16px" align="center" padding-top="2px">
+            <mj-text
+                color="#333"
+                font-size="16px"
+                align="center"
+                padding-top="2px"
+            >
+                Messenger
+            </mj-text>
+        </mj-text>
+        <mj-text
+            color="#757575"
+            font-size="14px"
+            align="center"
+            padding-top="2px"
+        >
+            <a
+                target="_blank"
+                style="text-decoration: none; color: #757575"
+                href="https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F177897195574994%2F%3Fmessaging_source%3Dsource%253Apages%253Amessage_shortlink%26source_id%3D1441792%26recurring_notification%3D0"
+                >Facebook</a
+            >
+        </mj-text>
+    </mj-column>
+</mj-section>
+<!-- Footer Divider Medium -->
+<mj-section>
+    <mj-column>
+        <mj-divider
+            width="250px"
+            border-width="1px"
+            border-style="solid"
+            border-color="#E1E1E1"
+        >
+        </mj-divider>
+    </mj-column>
+</mj-section>
+<!-- Footer Links Section -->
+<mj-section>
+    <mj-column>
+        <mj-text color="#333" font-size="24px" font-weight="500" align="center">
+            Quick links
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-section padding-top="0">
+    <mj-column>
+        <mj-text color="#333" font-size="14px" align="center"
+            ><a
+                style="text-decoration: none; color: #333"
+                target="_blank"
+                href="https://suitsupply.com/en-us/login?email-signedcode=096cb498a91dbbbcbd9f5a49b170cded&email-uid=C1101181726&utm_campaign=OrderConfirmation&utm_content=OrderConfirmation&utm_medium=email&utm_source=transactional_message"
+            >
+                My account
+            </a>
+        </mj-text>
+        <mj-text color="#333" font-size="14px" align="center"
+            ><a
+                style="text-decoration: none; color: #333"
+                target="_blank"
+                href="https://suitsupply.com/en-us/overview.html?email-signedcode=096cb498a91dbbbcbd9f5a49b170cded&email-uid=C1101181726&utm_campaign=OrderConfirmation&utm_content=OrderConfirmation&utm_medium=email&utm_source=transactional_message"
+            >
+                Support page
+            </a>
+        </mj-text>
+        <mj-text color="#333" font-size="14px" align="center"
+            ><a
+                style="text-decoration: none; color: #333"
+                target="_blank"
+                href="https://suitsupply.com/en-us/stores/united-states/all?email-signedcode=096cb498a91dbbbcbd9f5a49b170cded&email-uid=c1101181726&utm_campaign=orderconfirmation&utm_content=orderconfirmation&utm_medium=email&utm_source=transactional_message"
+            >
+                Nearby stores
+            </a>
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-section padding-top="0">
+    <mj-column>
+        <mj-divider
+            width="30px"
+            border-width="1px"
+            border-style="solid"
+            border-color="#E1E1E1"
+        >
+        </mj-divider>
+    </mj-column>
+</mj-section>
+<mj-section padding-top="0">
+    <mj-column>
+        <mj-text color="#333" font-size="14px" align="center"
+            ><a
+                style="text-decoration: none; color: #333"
+                target="_blank"
+                href="https://email.service.suitsupply.com/deliveries/RJukBwUAAZDsV5MwyjqU_UeZa_GD0Q="
+            >
+                View in browser
+            </a>
+        </mj-text>
+    </mj-column>
+</mj-section>
+<!-- Footer Socials Section -->
+<mj-section>
+    <mj-group css-class="icons-size">
+        <mj-column>
+            <mj-image
+                padding="0"
+                href="https://facebook.com/suitsupply"
+                src="./assets/facebook.png"
+                width="47px"
+                height="47px"
+                alt="facebook"
+            />
+        </mj-column>
+        <mj-column>
+            <mj-image
+                padding="0"
+                href="https://tiktok.com/@suitsupply"
+                src="./assets/tiktok.png"
+                width="47px"
+                height="47px"
+                alt="tiktok"
+            />
+        </mj-column>
+        <mj-column>
+            <mj-image
+                padding="0"
+                href="https://instagram.com/suitsupply"
+                src="./assets/instagram.png"
+                width="47px"
+                height="47px"
+                alt="instagram"
+            />
+        </mj-column>
+        <mj-column>
+            <mj-image
+                padding="0"
+                href="https://youtube.com/suitsupply"
+                src="./assets/youtube.png"
+                width="47px"
+                height="47px"
+                alt="youtube"
+            />
+        </mj-column>
+    </mj-group>
+</mj-section>
+<mj-section>
+    <mj-column>
+        <mj-divider
+            border-width="1px"
+            border-style="solid"
+            border-color="#E1E1E1"
+        >
+        </mj-divider>
+    </mj-column>
+</mj-section>
+<!-- Footer Note Section -->
+<mj-section padding-top="0">
+    <mj-column>
+        <mj-text font-size="12px" line-height="0" color="#757575" align="center"
+            >This message was sent by Suit Supply (U.S.A.), Inc. c/o Corporation
+        </mj-text>
+        <mj-text font-size="12px" line-height="0" color="#757575" align="center"
+            >Trust Center - 1209 Orange Street, Wilmington, DE 19801, U.S.A.
+        </mj-text>
+        <mj-text font-size="12px" line-height="0" color="#757575" align="center"
+            >EIN ID: 33-1220338.
+            <a
+                style="text-decoration: none; color: #757575"
+                href="https://suitsupply.com/en-us/terms-conditions.html?email-signedcode=096cb498a91dbbbcbd9f5a49b170cded&email-uid=C1101181726&utm_campaign=OrderConfirmation&utm_content=OrderConfirmation&utm_medium=email&utm_source=transactional_message"
+                >Terms & Conditions,</a
+            >
+            <a
+                style="text-decoration: none; color: #757575"
+                href="https://suitsupply.com/en-us/privacy-statement.html?email-signedcode=096cb498a91dbbbcbd9f5a49b170cded&email-uid=C1101181726&utm_campaign=OrderConfirmation&utm_content=OrderConfirmation&utm_medium=email&utm_source=transactional_message"
+                >Privacy statement.</a
+            >
+        </mj-text>
+    </mj-column>
+</mj-section>
