@@ -250,6 +250,7 @@
                 </mj-column>
             </mj-section>
             <mj-include path="./components/divider.mjml" />
+            <!-- Stores Section -->
             <mj-section css-class="rounded">
                 <mj-column width="15%" vertical-align="middle">
                     <mj-image
@@ -289,6 +290,46 @@
                     />
                 </mj-column>
             </mj-section>
+            <!-- Total Section -->
+            <mj-section>
+                <mj-column>
+                    <mj-text font-size="14px" color="#333">Subtotal</mj-text>
+                    <mj-text font-size="14px" color="#333">Sales tax</mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-text font-size="14px" color="#333" align="right"
+                        >$397.00 USD</mj-text
+                    >
+                    <mj-text font-size="14px" color="#333" align="right"
+                        >$34.24 USD</mj-text
+                    >
+                </mj-column>
+            </mj-section>
+            <mj-section padding-top="0">
+                <mj-column>
+                    <mj-text font-size="16px" color="#333" font-weight="500"
+                        >Total
+                        <span
+                            style="
+                                font-size: 14px;
+                                font-weight: normal;
+                                color: #7b7b7b;
+                            "
+                            >Inc. vat</span
+                        ></mj-text
+                    >
+                </mj-column>
+                <mj-column>
+                    <mj-text
+                        font-size="16px"
+                        font-weight="500"
+                        color="#333"
+                        align="right"
+                        >$431.24 USD</mj-text
+                    >
+                </mj-column>
+            </mj-section>
+            <!-- New Arrivals Section -->
         </mj-wrapper>
     </mj-body>
 </mjml>
