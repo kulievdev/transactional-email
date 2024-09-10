@@ -7,25 +7,26 @@
         <mj-wrapper background-color="#fff" padding="20px 6px">
             <mj-include path="./components/header.mjml" />
             <mj-raw>
-                <!-- Top Section -->
+                <!-- Confrimation Section -->
             </mj-raw>
             <mj-section>
                 <mj-column>
                     <mj-text
+                        color="#333"
                         font-size="40px"
-                        color="#2D2E2C"
                         font-weight="bold"
                         align="center"
                     >
                         Order Confirmation</mj-text
                     >
                     <mj-text
+                        color="#333"
                         font-size="20px"
-                        color="#2D2E2C"
                         font-weight="normal"
                         align="center"
                         padding-left="160px"
                         padding-right="160px"
+                        line-height="30px"
                     >
                         We'll be in touch when your order is on its way.
                     </mj-text>
@@ -36,6 +37,55 @@
                         alt="confirmation progress"
                         src="./assets/steps-confirmation.png"
                     />
+                </mj-column>
+            </mj-section>
+            <mj-raw>
+                <!-- Address Section -->
+            </mj-raw>
+            <mj-section>
+                <mj-column>
+                    <mj-text
+                        color="#333"
+                        font-size="16px"
+                        font-weight="500"
+                        line-height="0"
+                    >
+                        Billing address
+                    </mj-text>
+                    <mj-spacer height="6px" />
+                    <mj-text color="#333" font-size="14px" line-height="4px">
+                        205 Allen St
+                    </mj-text>
+                    <mj-text color="#333" font-size="14px" line-height="4px"
+                        >New York, NY 10002
+                    </mj-text>
+                    <mj-text color="#333" font-size="14px" line-height="4px">
+                        United States
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-spacer height="50px" />
+                </mj-column>
+            </mj-section>
+            <mj-section>
+                <mj-column>
+                    <mj-text
+                        color="#333"
+                        font-size="16px"
+                        font-weight="500"
+                        line-height="0"
+                        >Shipping address
+                    </mj-text>
+                    <mj-spacer height="6px" />
+                    <mj-text color="#333" font-size="14px" line-height="4px">
+                        205 Allen St
+                    </mj-text>
+                    <mj-text color="#333" font-size="14px" line-height="4px"
+                        >New York, NY 10002
+                    </mj-text>
+                    <mj-text color="#333" font-size="14px" line-height="4px">
+                        United States
+                    </mj-text>
                 </mj-column>
             </mj-section>
         </mj-wrapper>
