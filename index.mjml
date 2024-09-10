@@ -89,6 +89,162 @@
                     </mj-text>
                 </mj-column>
             </mj-section>
+            <mj-raw>
+                <!-- Items Section -->
+            </mj-raw>
+            <mj-section>
+                <mj-column>
+                    <mj-text
+                        color="#333"
+                        font-size="24px"
+                        font-weight="500"
+                        line-height="0"
+                        align="center"
+                        >Your Items
+                    </mj-text>
+                    <mj-spacer height="10px" />
+                    <mj-text
+                        color="#333"
+                        font-size="14px"
+                        line-height="4px"
+                        align="center"
+                    >
+                        Order Number 0443226368
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-include path="./components/divider.mjml" />
+            <mj-section>
+                <mj-column width="40%">
+                    <mj-image
+                        alt="Black Slim Leg Straight Chinos"
+                        src="./assets/black-pant.jpg"
+                        href="https://suitsupply.com/en-us/men/trousers/black-slim-leg-straight-chinos/B1562.html"
+                    />
+                </mj-column>
+                <mj-column width="60%" padding="10px 0">
+                    <mj-text
+                        color="#333"
+                        font-weight="500"
+                        font-size="14px"
+                        line-height="0"
+                    >
+                        Black Slim Leg Straight Chinos
+                    </mj-text>
+                    <mj-text color="#333" font-size="12px" line-height="0">
+                        Delivery: Wed, Oct 30
+                    </mj-text>
+                    <mj-spacer height="100px" />
+                    <mj-table>
+                        <tr>
+                            <td
+                                style="width: 50%; color: #333; font-size: 14px"
+                            >
+                                Size 30<br />
+                                Qty 1
+                            </td>
+                            <td
+                                style="
+                                    width: 50%;
+                                    text-align: right;
+                                    font-size: 14px;
+                                    color: #333;
+                                "
+                            >
+                                $129.00 USD
+                            </td>
+                        </tr>
+                    </mj-table>
+                </mj-column>
+            </mj-section>
+            <mj-include path="./components/divider.mjml" />
+            <mj-section>
+                <mj-column width="40%">
+                    <mj-image
+                        alt="Black Slim Fit Shirt"
+                        src="./assets/black-shirt.jpg"
+                        href="https://suitsupply.com/en-us/men/shirts/black-slim-fit-shirt/H683002.html?email-signedcode=096cb498a91dbbbcbd9f5a49b170cded&email-uid=C1101181726&utm_campaign=OrderConfirmation&utm_content=OrderConfirmation&utm_medium=email&utm_source=transactional_message"
+                    />
+                </mj-column>
+                <mj-column width="60%" padding="10px 0">
+                    <mj-text
+                        color="#333"
+                        font-weight="500"
+                        font-size="14px"
+                        line-height="0"
+                    >
+                        Black Slim Fit Shirt
+                    </mj-text>
+                    <mj-text color="#333" font-size="12px" line-height="0">
+                        Delivery: Wed, Oct 30
+                    </mj-text>
+                    <mj-spacer height="100px" />
+                    <mj-table>
+                        <tr>
+                            <td
+                                style="width: 50%; color: #333; font-size: 14px"
+                            >
+                                Size 14½-15<br />
+                                Qty 1
+                            </td>
+                            <td
+                                style="
+                                    width: 50%;
+                                    text-align: right;
+                                    font-size: 14px;
+                                    color: #333;
+                                "
+                            >
+                                $139.00 USD
+                            </td>
+                        </tr>
+                    </mj-table>
+                </mj-column>
+            </mj-section>
+            <mj-include path="./components/divider.mjml" />
+            <mj-section>
+                <mj-column width="40%">
+                    <mj-image
+                        alt="Off-White Slim Leg Straight Chinos"
+                        src="./assets/white-pant.jpg"
+                        href="https://suitsupply.com/en-us/men/trousers/off-white-slim-leg-straight-chinos/B1559.html"
+                    />
+                </mj-column>
+                <mj-column width="60%" padding="10px 0">
+                    <mj-text
+                        color="#333"
+                        font-weight="500"
+                        font-size="14px"
+                        line-height="0"
+                    >
+                        Off-White Slim Leg Straight Chinos
+                    </mj-text>
+                    <mj-text color="#333" font-size="12px" line-height="0">
+                        Delivery: Wed, Oct 30
+                    </mj-text>
+                    <mj-spacer height="100px" />
+                    <mj-table>
+                        <tr>
+                            <td
+                                style="width: 50%; color: #333; font-size: 14px"
+                            >
+                                Size 30<br />
+                                Qty 1
+                            </td>
+                            <td
+                                style="
+                                    width: 50%;
+                                    text-align: right;
+                                    font-size: 14px;
+                                    color: #333;
+                                "
+                            >
+                                $129.00 USD
+                            </td>
+                        </tr>
+                    </mj-table>
+                </mj-column>
+            </mj-section>
         </mj-wrapper>
     </mj-body>
 </mjml>
