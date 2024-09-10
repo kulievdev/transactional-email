@@ -1,0 +1,11 @@
+<mjml>
+    <mj-head>
+        <mj-style> * { box-sizing: border-box; } </mj-style>
+        <mj-style inline="inline"> </mj-style>
+    </mj-head>
+    <mj-body background-color="#F5F5F5">
+        <mj-wrapper background-color="#fff" padding="20px 6px">
+            <mj-include path="./components/header.mjml" />
+        </mj-wrapper>
+    </mj-body>
+</mjml>

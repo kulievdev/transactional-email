@@ -1,0 +1,14 @@
+<mj-raw>
+    <!-- Header -->
+</mj-raw>
+<mj-section>
+    <mj-column>
+        <mj-image
+            alt="suit supply logo"
+            width="120px"
+            href="https://suitsupply.com"
+            align="center"
+            src="./assets/logo.png"
+        />
+    </mj-column>
+</mj-section>
