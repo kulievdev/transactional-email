@@ -1,6 +1,10 @@
 <mjml>
     <mj-head>
-        <mj-style> * { box-sizing: border-box; } </mj-style>
+        <mj-style>
+            * { box-sizing: border-box; } .rounded { border: 1px solid #E1E1E1
+            !important; border-radius: 10px; width: calc(100% - 50px); } .link {
+            text-decoration: none; color: #333; } .link:visited { color: #333; }
+        </mj-style>
         <mj-style inline="inline"> </mj-style>
     </mj-head>
     <mj-body background-color="#F5F5F5">
@@ -243,6 +247,46 @@
                             </td>
                         </tr>
                     </mj-table>
+                </mj-column>
+            </mj-section>
+            <mj-include path="./components/divider.mjml" />
+            <mj-section css-class="rounded">
+                <mj-column width="15%" vertical-align="middle">
+                    <mj-image
+                        width="30px"
+                        alt="customize icon"
+                        src="./assets/customize-icon.png"
+                        href="https://suitsupply.com/en-us/journal/alter-your-fit.html?email-signedcode=096cb498a91dbbbcbd9f5a49b170cded&email-uid=C1101181726&utm_campaign=OrderConfirmation&utm_content=OrderConfirmation&utm_medium=email&utm_source=transactional_message"
+                    />
+                </mj-column>
+
+                <mj-column width="70%" vertical-align="middle">
+                    <mj-text
+                        padding-left="0"
+                        align="left"
+                        color="#333"
+                        font-size="14px"
+                        line-height="24px"
+                    >
+                        <a
+                            class="link"
+                            target="_blank"
+                            href="https://suitsupply.com/en-us/journal/alter-your-fit.html?email-signedcode=096cb498a91dbbbcbd9f5a49b170cded&email-uid=C1101181726&utm_campaign=OrderConfirmation&utm_content=OrderConfirmation&utm_medium=email&utm_source=transactional_message"
+                        >
+                            Get the perfect fit by customizing your garment in
+                            one of our 150 stores.</a
+                        >
+                    </mj-text>
+                </mj-column>
+
+                <mj-column width="15%" vertical-align="middle">
+                    <mj-image
+                        width="6px"
+                        align="right"
+                        alt="chevron-right icon"
+                        src="./assets/chevron-right.png"
+                        href="https://suitsupply.com/en-us/journal/alter-your-fit.html?email-signedcode=096cb498a91dbbbcbd9f5a49b170cded&email-uid=C1101181726&utm_campaign=OrderConfirmation&utm_content=OrderConfirmation&utm_medium=email&utm_source=transactional_message"
+                    />
                 </mj-column>
             </mj-section>
         </mj-wrapper>
