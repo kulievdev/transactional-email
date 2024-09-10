@@ -5,7 +5,7 @@
             !important; border-radius: 10px; width: calc(100% - 50px); } .link {
             text-decoration: none; color: #333; } .link:visited { color: #333; }
         </mj-style>
-        <mj-style inline="inline">.icons-size { max-width: 250px; }</mj-style>
+        <mj-style inline="inline">.icons-size { max-width: 250px; } </mj-style>
     </mj-head>
     <mj-body background-color="#F5F5F5">
         <mj-wrapper background-color="#fff" padding="20px 6px">
@@ -28,12 +28,11 @@
                         Order Confirmation</mj-text
                     >
                     <mj-text
+                        css-class="confirmation-text"
                         color="#333"
                         font-size="20px"
                         font-weight="normal"
                         align="center"
-                        padding-left="160px"
-                        padding-right="160px"
                         line-height="30px"
                     >
                         We'll be in touch when your order is on its way.
