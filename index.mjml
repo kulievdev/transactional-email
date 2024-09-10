@@ -11,6 +11,11 @@
         <mj-wrapper background-color="#fff" padding="20px 6px">
             <!-- Header Section -->
             <mj-include path="./components/header.mjml" />
+            <mj-section padding="0">
+                <mj-column>
+                    <mj-spacer height="20px" />
+                </mj-column>
+            </mj-section>
             <!-- Confrimation Section -->
             <mj-section>
                 <mj-column>
@@ -42,8 +47,18 @@
                     />
                 </mj-column>
             </mj-section>
+            <mj-section padding="0">
+                <mj-column>
+                    <mj-spacer height="20px" />
+                </mj-column>
+            </mj-section>
             <mj-include path="./components/divider.mjml" />
             <!-- Address Section -->
+            <mj-section padding="0">
+                <mj-column>
+                    <mj-spacer height="30px" />
+                </mj-column>
+            </mj-section>
             <mj-section>
                 <mj-column>
                     <mj-text
@@ -90,8 +105,13 @@
                     </mj-text>
                 </mj-column>
             </mj-section>
+            <mj-section padding="0">
+                <mj-column>
+                    <mj-spacer height="70px" />
+                </mj-column>
+            </mj-section>
             <!-- Items Section -->
-            <mj-section>
+            <mj-section padding="0" padding-bottom="16px">
                 <mj-column>
                     <mj-text
                         color="#333"
@@ -113,7 +133,7 @@
                 </mj-column>
             </mj-section>
             <mj-include path="./components/divider.mjml" />
-            <mj-section>
+            <mj-section padding="0">
                 <mj-column width="40%">
                     <mj-image
                         alt="Black Slim Leg Straight Chinos"
@@ -121,8 +141,9 @@
                         href="https://suitsupply.com/en-us/men/trousers/black-slim-leg-straight-chinos/B1562.html"
                     />
                 </mj-column>
-                <mj-column width="60%" padding="10px 0">
+                <mj-column width="60%" padding="14px 0">
                     <mj-text
+                        padding-left="0"
                         color="#333"
                         font-weight="500"
                         font-size="14px"
@@ -130,11 +151,16 @@
                     >
                         Black Slim Leg Straight Chinos
                     </mj-text>
-                    <mj-text color="#333" font-size="12px" line-height="0">
+                    <mj-text
+                        padding-left="0"
+                        color="#333"
+                        font-size="12px"
+                        line-height="0"
+                    >
                         Delivery: Wed, Oct 30
                     </mj-text>
                     <mj-spacer height="100px" />
-                    <mj-table>
+                    <mj-table padding-left="0">
                         <tr>
                             <td
                                 style="width: 50%; color: #333; font-size: 14px"
@@ -148,6 +174,7 @@
                                     text-align: right;
                                     font-size: 14px;
                                     color: #333;
+                                    vertical-align: bottom;
                                 "
                             >
                                 $129.00 USD
@@ -157,7 +184,7 @@
                 </mj-column>
             </mj-section>
             <mj-include path="./components/divider.mjml" />
-            <mj-section>
+            <mj-section padding="0">
                 <mj-column width="40%">
                     <mj-image
                         alt="Black Slim Fit Shirt"
@@ -165,8 +192,9 @@
                         href="https://suitsupply.com/en-us/men/shirts/black-slim-fit-shirt/H683002.html?email-signedcode=096cb498a91dbbbcbd9f5a49b170cded&email-uid=C1101181726&utm_campaign=OrderConfirmation&utm_content=OrderConfirmation&utm_medium=email&utm_source=transactional_message"
                     />
                 </mj-column>
-                <mj-column width="60%" padding="10px 0">
+                <mj-column width="60%" padding="14px 0">
                     <mj-text
+                        padding-left="0"
                         color="#333"
                         font-weight="500"
                         font-size="14px"
@@ -174,11 +202,16 @@
                     >
                         Black Slim Fit Shirt
                     </mj-text>
-                    <mj-text color="#333" font-size="12px" line-height="0">
+                    <mj-text
+                        padding-left="0"
+                        color="#333"
+                        font-size="12px"
+                        line-height="0"
+                    >
                         Delivery: Wed, Oct 30
                     </mj-text>
                     <mj-spacer height="100px" />
-                    <mj-table>
+                    <mj-table padding-left="0">
                         <tr>
                             <td
                                 style="width: 50%; color: #333; font-size: 14px"
@@ -192,6 +225,7 @@
                                     text-align: right;
                                     font-size: 14px;
                                     color: #333;
+                                    vertical-align: bottom;
                                 "
                             >
                                 $139.00 USD
@@ -201,7 +235,7 @@
                 </mj-column>
             </mj-section>
             <mj-include path="./components/divider.mjml" />
-            <mj-section>
+            <mj-section padding="0">
                 <mj-column width="40%">
                     <mj-image
                         alt="Off-White Slim Leg Straight Chinos"
@@ -209,8 +243,9 @@
                         href="https://suitsupply.com/en-us/men/trousers/off-white-slim-leg-straight-chinos/B1559.html"
                     />
                 </mj-column>
-                <mj-column width="60%" padding="10px 0">
+                <mj-column width="60%" padding="14px 0">
                     <mj-text
+                        padding-left="0"
                         color="#333"
                         font-weight="500"
                         font-size="14px"
@@ -218,11 +253,16 @@
                     >
                         Off-White Slim Leg Straight Chinos
                     </mj-text>
-                    <mj-text color="#333" font-size="12px" line-height="0">
+                    <mj-text
+                        padding-left="0"
+                        color="#333"
+                        font-size="12px"
+                        line-height="0"
+                    >
                         Delivery: Wed, Oct 30
                     </mj-text>
                     <mj-spacer height="100px" />
-                    <mj-table>
+                    <mj-table padding-left="0">
                         <tr>
                             <td
                                 style="width: 50%; color: #333; font-size: 14px"
@@ -236,6 +276,7 @@
                                     text-align: right;
                                     font-size: 14px;
                                     color: #333;
+                                    vertical-align: bottom;
                                 "
                             >
                                 $129.00 USD
@@ -245,6 +286,11 @@
                 </mj-column>
             </mj-section>
             <mj-include path="./components/divider.mjml" />
+            <mj-section padding="0">
+                <mj-column>
+                    <mj-spacer height="12px" />
+                </mj-column>
+            </mj-section>
             <!-- Stores Section -->
             <mj-section css-class="rounded">
                 <mj-column width="15%" vertical-align="middle">
@@ -328,7 +374,7 @@
                 </mj-column>
             </mj-section>
             <!-- New Arrivals Section -->
-            <mj-section>
+            <mj-section padding-top="70px">
                 <mj-column>
                     <mj-image
                         padding-right="4px"
@@ -346,7 +392,7 @@
                     />
                 </mj-column>
             </mj-section>
-            <mj-section>
+            <mj-section padding-bottom="70px">
                 <mj-column>
                     <mj-text
                         align="center"

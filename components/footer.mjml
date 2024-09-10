@@ -106,7 +106,7 @@
     </mj-column>
 </mj-section>
 <!-- Footer Links Section -->
-<mj-section>
+<mj-section padding-top="0">
     <mj-column>
         <mj-text color="#333" font-size="24px" font-weight="500" align="center">
             Quick links
