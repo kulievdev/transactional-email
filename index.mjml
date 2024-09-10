@@ -374,22 +374,24 @@
             </mj-section>
             <!-- New Arrivals Section -->
             <mj-section padding-top="70px">
-                <mj-column>
-                    <mj-image
-                        padding-right="4px"
-                        alt="man in a suit"
-                        src="./assets/suit.jpg"
-                        href="https://suitsupply.com/en-us/men/new-arrivals?utm_block=mb-newarrivals&email-signedcode=096cb498a91dbbbcbd9f5a49b170cded&email-uid=C1101181726&utm_campaign=OrderConfirmation&utm_content=OrderConfirmation&utm_medium=email&utm_source=transactional_message"
-                    />
-                </mj-column>
-                <mj-column>
-                    <mj-image
-                        padding-left="4px"
-                        alt="man in a polo"
-                        src="./assets/polo.jpg"
-                        href="https://suitsupply.com/en-us/men/new-arrivals?utm_block=mb-newarrivals&email-signedcode=096cb498a91dbbbcbd9f5a49b170cded&email-uid=C1101181726&utm_campaign=OrderConfirmation&utm_content=OrderConfirmation&utm_medium=email&utm_source=transactional_message"
-                    />
-                </mj-column>
+                <mj-group>
+                    <mj-column>
+                        <mj-image
+                            padding-right="4px"
+                            alt="man in a suit"
+                            src="./assets/suit.jpg"
+                            href="https://suitsupply.com/en-us/men/new-arrivals?utm_block=mb-newarrivals&email-signedcode=096cb498a91dbbbcbd9f5a49b170cded&email-uid=C1101181726&utm_campaign=OrderConfirmation&utm_content=OrderConfirmation&utm_medium=email&utm_source=transactional_message"
+                        />
+                    </mj-column>
+                    <mj-column>
+                        <mj-image
+                            padding-left="4px"
+                            alt="man in a polo"
+                            src="./assets/polo.jpg"
+                            href="https://suitsupply.com/en-us/men/new-arrivals?utm_block=mb-newarrivals&email-signedcode=096cb498a91dbbbcbd9f5a49b170cded&email-uid=C1101181726&utm_campaign=OrderConfirmation&utm_content=OrderConfirmation&utm_medium=email&utm_source=transactional_message"
+                        />
+                    </mj-column>
+                </mj-group>
             </mj-section>
             <mj-section padding-bottom="70px">
                 <mj-column>
