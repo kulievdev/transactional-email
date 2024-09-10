@@ -6,6 +6,38 @@
     <mj-body background-color="#F5F5F5">
         <mj-wrapper background-color="#fff" padding="20px 6px">
             <mj-include path="./components/header.mjml" />
+            <mj-raw>
+                <!-- Top Section -->
+            </mj-raw>
+            <mj-section>
+                <mj-column>
+                    <mj-text
+                        font-size="40px"
+                        color="#2D2E2C"
+                        font-weight="bold"
+                        align="center"
+                    >
+                        Order Confirmation</mj-text
+                    >
+                    <mj-text
+                        font-size="20px"
+                        color="#2D2E2C"
+                        font-weight="normal"
+                        align="center"
+                        padding-left="160px"
+                        padding-right="160px"
+                    >
+                        We'll be in touch when your order is on its way.
+                    </mj-text>
+                    <mj-spacer height="20px" />
+                    <mj-image
+                        align="center"
+                        width="400px"
+                        alt="confirmation progress"
+                        src="./assets/steps-confirmation.png"
+                    />
+                </mj-column>
+            </mj-section>
         </mj-wrapper>
     </mj-body>
 </mjml>
