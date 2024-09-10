@@ -39,6 +39,7 @@
                     />
                 </mj-column>
             </mj-section>
+            <mj-include path="./components/divider.mjml" />
             <mj-raw>
                 <!-- Address Section -->
             </mj-raw>
