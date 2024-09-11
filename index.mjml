@@ -20,15 +20,14 @@
             <mj-section>
                 <mj-column>
                     <mj-text
-                        color="#333"
                         font-size="40px"
+                        color="#333"
                         font-weight="bold"
                         align="center"
                     >
                         Order Confirmation</mj-text
                     >
                     <mj-text
-                        css-class="confirmation-text"
                         color="#333"
                         font-size="20px"
                         font-weight="normal"
