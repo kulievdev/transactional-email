@@ -60,12 +60,7 @@
             </mj-section>
             <mj-section>
                 <mj-column>
-                    <mj-text
-                        color="#333"
-                        font-size="16px"
-                        font-weight="500"
-                        line-height="0"
-                    >
+                    <mj-text color="#333" font-size="16px" font-weight="500">
                         Billing address
                     </mj-text>
                     <mj-spacer height="6px" />
@@ -85,11 +80,7 @@
             </mj-section>
             <mj-section>
                 <mj-column>
-                    <mj-text
-                        color="#333"
-                        font-size="16px"
-                        font-weight="500"
-                        line-height="0"
+                    <mj-text color="#333" font-size="16px" font-weight="500"
                         >Shipping address
                     </mj-text>
                     <mj-spacer height="6px" />
@@ -116,7 +107,6 @@
                         color="#333"
                         font-size="24px"
                         font-weight="500"
-                        line-height="0"
                         align="center"
                         >Your Items
                     </mj-text>
@@ -133,156 +123,168 @@
             </mj-section>
             <mj-include path="./components/divider.mjml" />
             <mj-section padding="0">
-                <mj-column width="40%">
-                    <mj-image
-                        alt="Black Slim Leg Straight Chinos"
-                        src="./assets/black-pant.jpg"
-                        href="https://suitsupply.com/en-us/men/trousers/black-slim-leg-straight-chinos/B1562.html"
-                    />
-                </mj-column>
-                <mj-column width="60%" padding="14px 0">
-                    <mj-text
-                        padding-left="0"
-                        color="#333"
-                        font-weight="500"
-                        font-size="14px"
-                        line-height="0"
-                    >
-                        Black Slim Leg Straight Chinos
-                    </mj-text>
-                    <mj-text
-                        padding-left="0"
-                        color="#333"
-                        font-size="12px"
-                        line-height="0"
-                    >
-                        Delivery: Wed, Oct 30
-                    </mj-text>
-                    <mj-spacer height="100px" />
-                    <mj-table padding-left="0">
-                        <tr>
-                            <td
-                                style="width: 50%; color: #333; font-size: 14px"
-                            >
-                                Size 30<br />
-                                Qty 1
-                            </td>
-                            <td
-                                style="
-                                    width: 50%;
-                                    text-align: right;
-                                    font-size: 14px;
-                                    color: #333;
-                                    vertical-align: bottom;
-                                "
-                            >
-                                $129.00 USD
-                            </td>
-                        </tr>
-                    </mj-table>
-                </mj-column>
+                <mj-group>
+                    <mj-column width="40%" vertical-align="middle">
+                        <mj-image
+                            alt="Black Slim Leg Straight Chinos"
+                            src="./assets/black-pant.jpg"
+                            href="https://suitsupply.com/en-us/men/trousers/black-slim-leg-straight-chinos/B1562.html"
+                        />
+                    </mj-column>
+                    <mj-column width="60%" vertical-align="middle">
+                        <mj-text
+                            padding-left="0"
+                            color="#333"
+                            font-weight="500"
+                            font-size="14px"
+                        >
+                            Black Slim Leg Straight Chinos
+                        </mj-text>
+                        <mj-text
+                            padding-left="0"
+                            padding-top="0"
+                            color="#333"
+                            font-size="12px"
+                        >
+                            Delivery: Wed, Oct 30
+                        </mj-text>
+                        <mj-table padding-left="0">
+                            <tr>
+                                <td
+                                    style="
+                                        width: 50%;
+                                        color: #333;
+                                        font-size: 14px;
+                                    "
+                                >
+                                    Size 30<br />
+                                    Qty 1
+                                </td>
+                                <td
+                                    style="
+                                        width: 50%;
+                                        text-align: right;
+                                        font-size: 14px;
+                                        color: #333;
+                                        vertical-align: bottom;
+                                    "
+                                >
+                                    $129.00 USD
+                                </td>
+                            </tr>
+                        </mj-table>
+                    </mj-column>
+                </mj-group>
             </mj-section>
             <mj-include path="./components/divider.mjml" />
             <mj-section padding="0">
-                <mj-column width="40%">
-                    <mj-image
-                        alt="Black Slim Fit Shirt"
-                        src="./assets/black-shirt.jpg"
-                        href="https://suitsupply.com/en-us/men/shirts/black-slim-fit-shirt/H683002.html?email-signedcode=096cb498a91dbbbcbd9f5a49b170cded&email-uid=C1101181726&utm_campaign=OrderConfirmation&utm_content=OrderConfirmation&utm_medium=email&utm_source=transactional_message"
-                    />
-                </mj-column>
-                <mj-column width="60%" padding="14px 0">
-                    <mj-text
-                        padding-left="0"
-                        color="#333"
-                        font-weight="500"
-                        font-size="14px"
-                        line-height="0"
-                    >
-                        Black Slim Fit Shirt
-                    </mj-text>
-                    <mj-text
-                        padding-left="0"
-                        color="#333"
-                        font-size="12px"
-                        line-height="0"
-                    >
-                        Delivery: Wed, Oct 30
-                    </mj-text>
-                    <mj-spacer height="100px" />
-                    <mj-table padding-left="0">
-                        <tr>
-                            <td
-                                style="width: 50%; color: #333; font-size: 14px"
-                            >
-                                Size 14½-15<br />
-                                Qty 1
-                            </td>
-                            <td
-                                style="
-                                    width: 50%;
-                                    text-align: right;
-                                    font-size: 14px;
-                                    color: #333;
-                                    vertical-align: bottom;
-                                "
-                            >
-                                $139.00 USD
-                            </td>
-                        </tr>
-                    </mj-table>
-                </mj-column>
+                <mj-group>
+                    <mj-column width="40%" vertical-align="middle">
+                        <mj-image
+                            alt="Black Slim Fit Shirt"
+                            src="./assets/black-shirt.jpg"
+                            href="https://suitsupply.com/en-us/men/shirts/black-slim-fit-shirt/H683002.html?email-signedcode=096cb498a91dbbbcbd9f5a49b170cded&email-uid=C1101181726&utm_campaign=OrderConfirmation&utm_content=OrderConfirmation&utm_medium=email&utm_source=transactional_message"
+                        />
+                    </mj-column>
+                    <mj-column width="60%" vertical-align="middle">
+                        <mj-text
+                            padding-left="0"
+                            color="#333"
+                            font-weight="500"
+                            font-size="14px"
+                        >
+                            Black Slim Fit Shirt
+                        </mj-text>
+                        <mj-text
+                            padding-left="0"
+                            padding-top="0"
+                            color="#333"
+                            font-size="12px"
+                        >
+                            Delivery: Wed, Oct 30
+                        </mj-text>
+                        <mj-table padding-left="0">
+                            <tr>
+                                <td
+                                    style="
+                                        width: 50%;
+                                        color: #333;
+                                        font-size: 14px;
+                                    "
+                                >
+                                    Size 14½-15<br />
+                                    Qty 1
+                                </td>
+                                <td
+                                    style="
+                                        width: 50%;
+                                        text-align: right;
+                                        font-size: 14px;
+                                        color: #333;
+                                        vertical-align: bottom;
+                                    "
+                                >
+                                    $139.00 USD
+                                </td>
+                            </tr>
+                        </mj-table>
+                    </mj-column>
+                </mj-group>
             </mj-section>
             <mj-include path="./components/divider.mjml" />
             <mj-section padding="0">
-                <mj-column width="40%">
-                    <mj-image
-                        alt="Off-White Slim Leg Straight Chinos"
-                        src="./assets/white-pant.jpg"
-                        href="https://suitsupply.com/en-us/men/trousers/off-white-slim-leg-straight-chinos/B1559.html"
-                    />
-                </mj-column>
-                <mj-column width="60%" padding="14px 0">
-                    <mj-text
-                        padding-left="0"
-                        color="#333"
-                        font-weight="500"
-                        font-size="14px"
-                        line-height="0"
-                    >
-                        Off-White Slim Leg Straight Chinos
-                    </mj-text>
-                    <mj-text
-                        padding-left="0"
-                        color="#333"
-                        font-size="12px"
-                        line-height="0"
-                    >
-                        Delivery: Wed, Oct 30
-                    </mj-text>
-                    <mj-spacer height="100px" />
-                    <mj-table padding-left="0">
-                        <tr>
-                            <td
-                                style="width: 50%; color: #333; font-size: 14px"
-                            >
-                                Size 30<br />
-                                Qty 1
-                            </td>
-                            <td
-                                style="
-                                    width: 50%;
-                                    text-align: right;
-                                    font-size: 14px;
-                                    color: #333;
-                                    vertical-align: bottom;
-                                "
-                            >
-                                $129.00 USD
-                            </td>
-                        </tr>
-                    </mj-table>
-                </mj-column>
+                <mj-group>
+                    <mj-column width="40%" vertical-align="middle">
+                        <mj-image
+                            alt="Off-White Slim Leg Straight Chinos"
+                            src="./assets/white-pant.jpg"
+                            href="https://suitsupply.com/en-us/men/trousers/off-white-slim-leg-straight-chinos/B1559.html"
+                        />
+                    </mj-column>
+                    <mj-column width="60%" vertical-align="middle">
+                        <mj-text
+                            padding-left="0"
+                            color="#333"
+                            font-weight="500"
+                            font-size="14px"
+                        >
+                            Off-White Slim Leg Straight Chinos
+                        </mj-text>
+                        <mj-text
+                            padding-left="0"
+                            padding-top="0"
+                            color="#333"
+                            font-size="12px"
+                        >
+                            Delivery: Wed, Oct 30
+                        </mj-text>
+                        <mj-table padding-left="0">
+                            <tr>
+                                <td
+                                    style="
+                                        width: 50%;
+                                        color: #333;
+                                        font-size: 14px;
+                                    "
+                                >
+                                    Size 30<br />
+                                    Qty 1
+                                </td>
+                                <td
+                                    style="
+                                        width: 50%;
+                                        text-align: right;
+                                        font-size: 14px;
+                                        color: #333;
+                                        vertical-align: bottom;
+                                    "
+                                >
+                                    $129.00 USD
+                                </td>
+                            </tr>
+                        </mj-table>
+                    </mj-column>
+                </mj-group>
             </mj-section>
             <mj-include path="./components/divider.mjml" />
             <mj-section padding="0">
@@ -292,85 +294,95 @@
             </mj-section>
             <!-- Stores Section -->
             <mj-section css-class="rounded">
-                <mj-column width="15%" vertical-align="middle">
-                    <mj-image
-                        padding="0"
-                        width="30px"
-                        alt="customize icon"
-                        src="./assets/customize-icon.png"
-                        href="https://suitsupply.com/en-us/journal/alter-your-fit.html?email-signedcode=096cb498a91dbbbcbd9f5a49b170cded&email-uid=C1101181726&utm_campaign=OrderConfirmation&utm_content=OrderConfirmation&utm_medium=email&utm_source=transactional_message"
-                    />
-                </mj-column>
-
-                <mj-column width="70%" vertical-align="middle">
-                    <mj-text
-                        padding="0"
-                        align="left"
-                        color="#333"
-                        font-size="14px"
-                        line-height="24px"
-                    >
-                        <a
-                            class="link"
-                            target="_blank"
+                <mj-group>
+                    <mj-column width="15%" vertical-align="middle">
+                        <mj-image
+                            padding="0"
+                            width="30px"
+                            alt="customize icon"
+                            src="./assets/customize-icon.png"
                             href="https://suitsupply.com/en-us/journal/alter-your-fit.html?email-signedcode=096cb498a91dbbbcbd9f5a49b170cded&email-uid=C1101181726&utm_campaign=OrderConfirmation&utm_content=OrderConfirmation&utm_medium=email&utm_source=transactional_message"
-                        >
-                            Get the perfect fit by customizing your garment in
-                            one of our 150 stores.</a
-                        >
-                    </mj-text>
-                </mj-column>
+                        />
+                    </mj-column>
 
-                <mj-column width="15%" vertical-align="middle">
-                    <mj-image
-                        padding="0"
-                        padding-right="16px"
-                        width="6px"
-                        align="right"
-                        alt="chevron-right icon"
-                        src="./assets/chevron-right.png"
-                        href="https://suitsupply.com/en-us/journal/alter-your-fit.html?email-signedcode=096cb498a91dbbbcbd9f5a49b170cded&email-uid=C1101181726&utm_campaign=OrderConfirmation&utm_content=OrderConfirmation&utm_medium=email&utm_source=transactional_message"
-                    />
-                </mj-column>
+                    <mj-column width="70%" vertical-align="middle">
+                        <mj-text
+                            padding="0"
+                            align="left"
+                            color="#333"
+                            font-size="14px"
+                            line-height="24px"
+                        >
+                            <a
+                                class="link"
+                                target="_blank"
+                                href="https://suitsupply.com/en-us/journal/alter-your-fit.html?email-signedcode=096cb498a91dbbbcbd9f5a49b170cded&email-uid=C1101181726&utm_campaign=OrderConfirmation&utm_content=OrderConfirmation&utm_medium=email&utm_source=transactional_message"
+                            >
+                                Get the perfect fit by customizing your garment
+                                in one of our 150 stores.</a
+                            >
+                        </mj-text>
+                    </mj-column>
+
+                    <mj-column width="15%" vertical-align="middle">
+                        <mj-image
+                            padding="0"
+                            padding-right="16px"
+                            width="6px"
+                            align="right"
+                            alt="chevron-right icon"
+                            src="./assets/chevron-right.png"
+                            href="https://suitsupply.com/en-us/journal/alter-your-fit.html?email-signedcode=096cb498a91dbbbcbd9f5a49b170cded&email-uid=C1101181726&utm_campaign=OrderConfirmation&utm_content=OrderConfirmation&utm_medium=email&utm_source=transactional_message"
+                        />
+                    </mj-column>
+                </mj-group>
             </mj-section>
             <!-- Total Section -->
             <mj-section>
-                <mj-column>
-                    <mj-text font-size="14px" color="#333">Subtotal</mj-text>
-                    <mj-text font-size="14px" color="#333">Sales tax</mj-text>
-                </mj-column>
-                <mj-column>
-                    <mj-text font-size="14px" color="#333" align="right"
-                        >$397.00 USD</mj-text
-                    >
-                    <mj-text font-size="14px" color="#333" align="right"
-                        >$34.24 USD</mj-text
-                    >
-                </mj-column>
+                <mj-group>
+                    <mj-column>
+                        <mj-text font-size="14px" color="#333"
+                            >Subtotal</mj-text
+                        >
+                        <mj-text font-size="14px" color="#333"
+                            >Sales tax</mj-text
+                        >
+                    </mj-column>
+                    <mj-column>
+                        <mj-text font-size="14px" color="#333" align="right"
+                            >$397.00 USD</mj-text
+                        >
+                        <mj-text font-size="14px" color="#333" align="right"
+                            >$34.24 USD</mj-text
+                        >
+                    </mj-column>
+                </mj-group>
             </mj-section>
             <mj-section padding-top="0">
-                <mj-column>
-                    <mj-text font-size="16px" color="#333" font-weight="500"
-                        >Total
-                        <span
-                            style="
-                                font-size: 14px;
-                                font-weight: normal;
-                                color: #7b7b7b;
-                            "
-                            >Inc. vat</span
-                        ></mj-text
-                    >
-                </mj-column>
-                <mj-column>
-                    <mj-text
-                        font-size="16px"
-                        font-weight="500"
-                        color="#333"
-                        align="right"
-                        >$431.24 USD</mj-text
-                    >
-                </mj-column>
+                <mj-group>
+                    <mj-column>
+                        <mj-text font-size="16px" color="#333" font-weight="500"
+                            >Total
+                            <span
+                                style="
+                                    font-size: 14px;
+                                    font-weight: normal;
+                                    color: #7b7b7b;
+                                "
+                                >Inc. vat</span
+                            ></mj-text
+                        >
+                    </mj-column>
+                    <mj-column>
+                        <mj-text
+                            font-size="16px"
+                            font-weight="500"
+                            color="#333"
+                            align="right"
+                            >$431.24 USD</mj-text
+                        >
+                    </mj-column>
+                </mj-group>
             </mj-section>
             <!-- New Arrivals Section -->
             <mj-section padding-top="70px">
